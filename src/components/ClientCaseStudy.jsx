@@ -27,6 +27,27 @@ export default function ClientCaseStudy({ c }) {
         </motion.div>))}</div>
 
       <h4 className="stage">Stage 3 — Current Status</h4>
+      {c.statusTitle && (
+        <h5 style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 'clamp(1.35rem, 1.8vw, 1.7rem)',
+          fontWeight: 700,
+          color: '#ffffff',
+          margin: '22px 0 12px',
+          letterSpacing: '.02em'
+        }}>
+          {c.statusTitle}
+        </h5>
+      )}
+      {c.statusDescription && (
+        <div style={{ color: 'var(--muted)', fontSize: '1.02rem', lineHeight: 1.75, marginBottom: '24px' }}>
+          {Array.isArray(c.statusDescription)
+            ? c.statusDescription.map((p, idx) => (
+                <p key={idx} style={{ margin: '0 0 12px' }}>{p}</p>
+              ))
+            : <p style={{ margin: '0 0 12px' }}>{c.statusDescription}</p>}
+        </div>
+      )}
       {c.snapshots || c.dashboardSnapshots || c.activityItems ? (
         <DashboardGallery
           snapshots={c.snapshots || c.dashboardSnapshots}
@@ -37,7 +58,7 @@ export default function ClientCaseStudy({ c }) {
         <ul className="chips">{c.activities.map(a => <li key={a}>{a}</li>)}</ul>
         <div className="grid4">{c.placeholders.map(p => <div key={p} className="card ph-metric"><small>{p}</small><b>[Insert verified figure]</b></div>)}</div>
       </>)}
-      <p className="conclusion"><b>Case study conclusion.</b> {c.conclusion}</p>
+      {c.conclusion && <p className="conclusion"><b>Case study conclusion.</b> {c.conclusion}</p>}
     </motion.div>
   )
 }
