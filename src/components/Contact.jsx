@@ -136,16 +136,13 @@ export default function Contact() {
                 {contactItems.map((item) => {
                   const Icon = item.icon
                   return (
-                    <motion.a
+                    <a
                       key={item.key}
                       href={item.href}
                       className="contact-item-card"
                       target={item.external ? '_blank' : undefined}
                       rel={item.external ? 'noopener noreferrer' : undefined}
                       aria-label={item.ariaLabel}
-                      whileHover={{ y: -3, scale: 1.015 }}
-                      whileTap={{ scale: 0.985 }}
-                      transition={{ duration: 0.2 }}
                     >
                       <div className="contact-icon-bubble" aria-hidden="true">
                         <Icon size={19} color={item.iconColor} {...(item.iconProps || {})} />
@@ -156,7 +153,7 @@ export default function Contact() {
                           {item.value}
                         </span>
                       </div>
-                    </motion.a>
+                    </a>
                   )
                 })}
               </div>
