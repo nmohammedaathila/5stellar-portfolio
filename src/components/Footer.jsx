@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <motion.footer className="foot" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
       <div className="wrap fgrid">
-        <div><img src={logo} alt="5 Stellar logo" className="mark-img lg" role="img" /><p>Creative Minds. Business Results.</p></div>
+        <div><img src={logo} alt="5 Stellar logo" className="mark-img lg" /><p>Creative Minds. Business Results.</p></div>
         <nav aria-label="Footer">{nav.map(([id, l]) => <a key={id} href={`#${id}`}>{l}</a>)}</nav>
         <div><a href={contact.tel}>{contact.phone}</a><a href={`mailto:${contact.email}`}>{contact.email}</a><a href={contact.instagramUrl} target="_blank" rel="noreferrer">{contact.instagram}</a><span>{contact.location}</span></div>
       </div>
