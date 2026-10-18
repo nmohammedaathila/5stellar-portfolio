@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" style="background:#071428;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a36"/>
+      <stop offset="50%" stop-color="#071428"/>
+      <stop offset="100%" stop-color="#040b17"/>
+    </linearGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f254a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0a1a36" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5df88"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad3)"/>
+  <rect width="1200" height="675" fill="none" stroke="#d4af37" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="60" fill="#050e1d" fill-opacity="0.9"/>
+  <line x1="0" y1="60" x2="1200" y2="60" stroke="#d4af37" stroke-opacity="0.25" stroke-width="1"/>
+  
+  <!-- Logo / Brand -->
+  <circle cx="42" cy="30" r="14" fill="#d4af37" fill-opacity="0.15" stroke="#d4af37" stroke-width="1.5"/>
+  <text x="42" y="35" fill="#f5df88" font-size="13" font-weight="bold" text-anchor="middle">OB</text>
+  <text x="68" y="35" fill="#ffffff" font-size="15" font-weight="700" letter-spacing="0.5">ORU BITE</text>
+  <text x="148" y="35" fill="#d4af37" font-size="12" font-weight="500">| Audience Engagement Rate Analytics</text>
+
+  <!-- Sample Illustrative Badge -->
+  <rect x="880" y="16" width="280" height="28" rx="14" fill="#1e3a68" stroke="#d4af37" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="896" cy="30" r="4" fill="#d4af37"/>
+  <text x="908" y="35" fill="#f5df88" font-size="11" font-weight="600" letter-spacing="0.5">ILLUSTRATIVE DASHBOARD METRIC</text>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 85)">
+    <text x="0" y="24" fill="#ffffff" font-size="22" font-weight="700">Audience Engagement &amp; Interaction Rate</text>
+    <text x="0" y="44" fill="#93a8c7" font-size="13">Instagram likes, saves, shares, story replies &amp; community interactions</text>
+  </g>
+
+  <!-- Metric KPI Cards -->
+  <!-- Card 1: Engagement Rate -->
+  <g transform="translate(40, 150)">
+    <rect width="260" height="110" rx="14" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="20" y="32" fill="#d4af37" font-size="12" font-weight="700" letter-spacing="0.5">AVG. ENGAGEMENT RATE</text>
+    <text x="20" y="70" fill="url(#goldGrad3)" font-size="34" font-weight="800">6.4%</text>
+    <text x="20" y="94" fill="#4ade80" font-size="11" font-weight="600">High local food lover resonance</text>
+    <circle cx="225" cy="35" r="16" fill="#d4af37" fill-opacity="0.15"/>
+    <path d="M225 25l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="#d4af37"/>
+  </g>
+
+  <!-- Card 2: Total Interactions -->
+  <g transform="translate(325, 150)">
+    <rect width="260" height="110" rx="14" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="32" fill="#93a8c7" font-size="12" font-weight="600" letter-spacing="0.5">MONTHLY INTERACTIONS</text>
+    <text x="20" y="70" fill="#ffffff" font-size="32" font-weight="800">28,640</text>
+    <text x="20" y="94" fill="#4ade80" font-size="11" font-weight="600">+42.8% vs baseline (sample)</text>
+    <circle cx="225" cy="35" r="16" fill="#ec4899" fill-opacity="0.15"/>
+    <path d="M217 32c0-3 2-5 5-5s5 2 5 5c0 4-5 8-5 8s-5-4-5-8z" fill="#f43f5e"/>
+  </g>
+
+  <!-- Card 3: Post Saves & Shares -->
+  <g transform="translate(610, 150)">
+    <rect width="260" height="110" rx="14" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="32" fill="#93a8c7" font-size="12" font-weight="600" letter-spacing="0.5">SAVES &amp; BOOKMARKS</text>
+    <text x="20" y="70" fill="url(#goldGrad3)" font-size="32" font-weight="800">4,190</text>
+    <text x="20" y="94" fill="#93a8c7" font-size="11">Menu items saved for visits</text>
+    <circle cx="225" cy="35" r="16" fill="#38bdf8" fill-opacity="0.15"/>
+    <path d="M220 28h10v14l-5-3-5 3z" fill="#38bdf8"/>
+  </g>
+
+  <!-- Card 4: Top Post Format -->
+  <g transform="translate(895, 150)">
+    <rect width="265" height="110" rx="14" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="20" y="32" fill="#93a8c7" font-size="12" font-weight="600" letter-spacing="0.5">HIGHEST ENGAGED FORMAT</text>
+    <text x="20" y="68" fill="#f5df88" font-size="18" font-weight="700">Reels &amp; Video Drops</text>
+    <text x="20" y="94" fill="#93a8c7" font-size="11">8.2% avg reel interaction rate</text>
+    <circle cx="230" cy="35" r="16" fill="#d4af37" fill-opacity="0.15"/>
+    <polygon points="227,29 237,35 227,41" fill="#d4af37"/>
+  </g>
+
+  <!-- Lower Section: Interaction Breakdown and Day Trends -->
+  <g transform="translate(40, 285)">
+    <!-- Interaction Breakdown -->
+    <rect width="545" height="345" rx="16" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="24" y="34" fill="#ffffff" font-size="15" font-weight="700">Engagement Type Distribution</text>
+    <text x="24" y="52" fill="#93a8c7" font-size="11">Breakdown of audience actions on Oru Bite content</text>
+
+    <!-- Progress Bars -->
+    <g transform="translate(24, 80)">
+      <text x="0" y="16" fill="#ffffff" font-size="13" font-weight="600">Likes &amp; Reactions</text>
+      <text x="495" y="16" fill="#f5df88" font-size="13" font-weight="700" text-anchor="end">48%</text>
+      <rect x="0" y="26" width="495" height="12" rx="6" fill="#132746"/>
+      <rect x="0" y="26" width="238" height="12" rx="6" fill="#d4af37"/>
+    </g>
+
+    <g transform="translate(24, 140)">
+      <text x="0" y="16" fill="#ffffff" font-size="13" font-weight="600">Post Saves (Menu &amp; Deals)</text>
+      <text x="495" y="16" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="end">24%</text>
+      <rect x="0" y="26" width="495" height="12" rx="6" fill="#132746"/>
+      <rect x="0" y="26" width="119" height="12" rx="6" fill="#38bdf8"/>
+    </g>
+
+    <g transform="translate(24, 200)">
+      <text x="0" y="16" fill="#ffffff" font-size="13" font-weight="600">Shares &amp; Story Mentions</text>
+      <text x="495" y="16" fill="#4ade80" font-size="13" font-weight="700" text-anchor="end">16%</text>
+      <rect x="0" y="26" width="495" height="12" rx="6" fill="#132746"/>
+      <rect x="0" y="26" width="79" height="12" rx="6" fill="#4ade80"/>
+    </g>
+
+    <g transform="translate(24, 260)">
+      <text x="0" y="16" fill="#ffffff" font-size="13" font-weight="600">Comments &amp; Price Enquiries</text>
+      <text x="495" y="16" fill="#ec4899" font-size="13" font-weight="700" text-anchor="end">12%</text>
+      <rect x="0" y="26" width="495" height="12" rx="6" fill="#132746"/>
+      <rect x="0" y="26" width="59" height="12" rx="6" fill="#f43f5e"/>
+    </g>
+  </g>
+
+  <!-- Right Chart: Hourly Engagement Pulse -->
+  <g transform="translate(610, 285)">
+    <rect width="550" height="345" rx="16" fill="url(#cardGrad3)" stroke="#d4af37" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="24" y="34" fill="#ffffff" font-size="15" font-weight="700">Daily Engagement Curve by Time of Day</text>
+    <text x="24" y="52" fill="#93a8c7" font-size="11">Peak engagement during afternoon tea &amp; post-college hours (4 PM - 9 PM)</text>
+
+    <!-- Curve -->
+    <path d="M50 240 Q 150 230, 220 180 T 350 140 T 420 80 T 490 120" fill="none" stroke="#d4af37" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="420" cy="80" r="6" fill="#f5df88" stroke="#071428" stroke-width="2"/>
+    
+    <!-- Highlight Card -->
+    <g transform="translate(330, 20)">
+      <rect width="180" height="42" rx="8" fill="#0f254a" stroke="#d4af37" stroke-width="1"/>
+      <text x="90" y="18" fill="#93a8c7" font-size="9" text-anchor="middle">PEAK LOCAL ENGAGEMENT</text>
+      <text x="90" y="33" fill="#f5df88" font-size="12" font-weight="700" text-anchor="middle">5:30 PM - 8:30 PM</text>
+    </g>
+
+    <!-- X Axis -->
+    <line x1="45" y1="260" x2="505" y2="260" stroke="#2a4878" stroke-width="1"/>
+    <text x="50" y="280" fill="#93a8c7" font-size="11" text-anchor="middle">10 AM</text>
+    <text x="170" y="280" fill="#93a8c7" font-size="11" text-anchor="middle">1 PM</text>
+    <text x="290" y="280" fill="#93a8c7" font-size="11" text-anchor="middle">4 PM</text>
+    <text x="420" y="280" fill="#f5df88" font-size="11" font-weight="700" text-anchor="middle">7 PM (Peak)</text>
+    <text x="490" y="280" fill="#93a8c7" font-size="11" text-anchor="middle">10 PM</text>
+  </g>
+</svg>
