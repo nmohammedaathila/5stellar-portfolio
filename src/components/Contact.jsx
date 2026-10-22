@@ -43,10 +43,10 @@ export default function Contact() {
       iconColor: '#16a34a',
       iconProps: { strokeWidth: 2.4 },
       label: 'PHONE',
-      value: contact?.phone || '+91 63798 72955',
-      href: contact?.tel || 'tel:+916379872955',
+      value: contact?.phone || '+91 93446 13855',
+      href: contact?.tel || 'tel:+919344613855',
       external: false,
-      ariaLabel: 'Call +91 63798 72955',
+      ariaLabel: 'Call +91 93446 13855',
     },
     {
       key: 'email',

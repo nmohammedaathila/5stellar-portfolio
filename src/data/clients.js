@@ -65,7 +65,7 @@ export const clients = [
  ],
 },
 {
- id: 'jj-dental', name: 'JJ Dental', logo: jjDentalLogo,
+ id: 'jj-dental', name: 'JJ Clinic', logo: jjDentalLogo,
  industry: 'Healthcare & Dental Services', focus: 'Digital Brand Growth & Patient Acquisition',
  overview: 'Client information will be added soon.',
  initial: [

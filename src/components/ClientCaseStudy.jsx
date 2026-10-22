@@ -7,11 +7,25 @@ export default function ClientCaseStudy({ c }) {
   return (
     <motion.div key={c.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .5 }} className={`case ${c.id}`}>
       <header className="case-head">
-        {c.logo
-          ? <img src={c.logo} alt={`${c.name} logo`} className="clogo" />
-          : c.initials
-            ? <div className="clogo ph" aria-label={`${c.name} logo placeholder`}><span style={{fontSize:'2.2rem',fontWeight:700,fontFamily:"'Cormorant Garamond',serif",letterSpacing:'.08em'}}>{c.initials}</span></div>
-            : <img src={ccLogo} alt="Choose & Chew Restaurant logo" className="clogo" style={{ border: 'none', borderRadius: '24px' }} />}
+        {c.id === 'jj-dental' ? (
+          <img
+            src={c.logo}
+            alt={`${c.name} logo`}
+            className="clogo"
+            style={{
+              border: 'none',
+              borderRadius: '24px',
+              objectFit: 'contain',
+              backgroundColor: '#00231c',
+            }}
+          />
+        ) : c.logo ? (
+          <img src={c.logo} alt={`${c.name} logo`} className="clogo" />
+        ) : c.initials ? (
+          <div className="clogo ph" aria-label={`${c.name} logo placeholder`}><span style={{fontSize:'2.2rem',fontWeight:700,fontFamily:"'Cormorant Garamond',serif",letterSpacing:'.08em'}}>{c.initials}</span></div>
+        ) : (
+          <img src={ccLogo} alt="Choose & Chew Restaurant logo" className="clogo" style={{ border: 'none', borderRadius: '24px' }} />
+        )}
         <div><h3>{c.name}</h3><p className="tag">{c.industry}</p><p><b>Focus:</b> {c.focus}</p><p className="overview">{c.overview}</p></div>
       </header>
       <GrowthTimeline stages={['Initial Stage', 'Our Growth Strategy', 'Current Status']} />
